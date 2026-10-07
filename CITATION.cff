@@ -1,9 +1,11 @@
 
 cff-version: 1.2.0
-message: "Please cite this software using the metadata below; add the DOI after the authorized public release."
+message: "Please cite this software using the metadata below."
 title: "Reproducibility package for cross-context transcriptomic mapping of pediatric viral respiratory infection within a Bufei Fanggan Formula-derived candidate space"
 type: software
-version: 1.0.0
+version: 1.0.1
+doi: 10.5281/zenodo.23203135
+date-released: 2026-10-07
 license: MIT
 repository-code: "https://github.com/echoqf-lang/bfff-pediatric-viral-transcriptomics"
 authors:
@@ -26,7 +28,7 @@ keywords:
   - cross-context integration
   - reproducible research
 abstract: >-
-  Local pre-release analysis code, frozen configuration, provenance records,
+  Analysis code, frozen configuration, provenance records,
   checksums, and compact derived results supporting a multi-cohort secondary
   analysis of public pediatric blood and airway transcriptomes. No analyzed
   cohort included exposure to Bufei Fanggan Formula.

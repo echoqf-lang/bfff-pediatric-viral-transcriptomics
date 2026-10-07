@@ -109,18 +109,21 @@ def main() -> int:
     repository_url = "https://github.com/echoqf-lang/bfff-pediatric-viral-transcriptomics"
     if repository_url not in citation or repository_url not in readme:
         errors.append("confirmed repository URL is missing from citation or README metadata")
+    release_doi = "10.5281/zenodo.23203135"
+    if release_doi not in citation or release_doi not in readme:
+        errors.append("published Zenodo DOI is missing from citation or README metadata")
 
     required_license_files = (ROOT / "LICENSE", ROOT / "LICENSES" / "MIT.txt", ROOT / "LICENSES" / "CC-BY-4.0.txt")
     if not all(path.is_file() for path in required_license_files):
         errors.append("dual-license files are incomplete")
     zenodo = json.loads((ROOT / ".zenodo.json").read_text(encoding="utf-8"))
-    if zenodo.get("license") != "mit" or [x.get("name") for x in zenodo.get("creators", [])] != ["Qiu, Fan", "Yin, Yuyue", "Yang, Xuehui"]:
+    if zenodo.get("license") != "mit" or zenodo.get("version") != "1.0.1" or [x.get("name") for x in zenodo.get("creators", [])] != ["Qiu, Fan", "Yin, Yuyue", "Yang, Xuehui"]:
         errors.append("Zenodo metadata license or creator order mismatch")
 
     status = "PASS" if not errors else "FAIL"
     print(f"BFFF_DOI_REPOSITORY_{status}")
     print(f"files={len(files)} main_tables={len(main_tables)} supplementary_tables={len(supplementary)} figures={len(figures)}")
-    print("release_ready=true author_metadata_required=false deposit_contact_confirmed=true license_files_present=true license_selection_confirmed=true institutional_release_confirmation_required=false repository_url_required=false external_upload_performed=true doi_reserved_or_published=false")
+    print("release_ready=true author_metadata_required=false deposit_contact_confirmed=true license_files_present=true license_selection_confirmed=true institutional_release_confirmation_required=false repository_url_required=false external_upload_performed=true doi_reserved_or_published=true")
     for error in errors:
         print(f"ERROR: {error}")
     return 0 if not errors else 1

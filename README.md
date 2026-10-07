@@ -5,7 +5,7 @@ This local staging repository supports the manuscript **Cross-context integratio
 
 ## Release status
 
-This is the public reproducibility archive at <https://github.com/echoqf-lang/bfff-pediatric-viral-transcriptomics>. The validated package was uploaded and made public on 2026-10-07; no GitHub Release or DOI has yet been created. The authors confirmed the institutional public-release check on 2026-10-07 for the original analysis code and author-generated derived data, figures, documentation, and candidate-gene lists included in this archive. The author order, affiliations, emails, repository contact, planned depositor, repository URL, and dual-license selection have been recorded. Original code is assigned MIT and author-generated derived data, figures, and documentation are assigned CC BY 4.0. ORCIDs may be added if available but are not represented when unconfirmed.
+This is the public reproducibility archive at <https://github.com/echoqf-lang/bfff-pediatric-viral-transcriptomics>. Release `v1.0.1` was archived by Zenodo on 2026-10-07 and is available under the version-specific DOI <https://doi.org/10.5281/zenodo.23203135>. The authors confirmed the institutional public-release check on 2026-10-07 for the original analysis code and author-generated derived data, figures, documentation, and candidate-gene lists included in this archive. The author order, affiliations, emails, repository contact, depositor, repository URL, and dual-license selection have been recorded. Original code is assigned MIT and author-generated derived data, figures, and documentation are assigned CC BY 4.0. ORCIDs may be added if available but are not represented when unconfirmed.
 
 ## Evidence boundary
 
@@ -71,4 +71,4 @@ See `LICENSE`, `LICENSES/`, and `LICENSE_STATUS.md`. MIT applies to original cod
 
 ## Citation
 
-`CITATION.cff` records the confirmed author order, MIT software license, repository URL, and Fan Qiu as the repository contact. `.zenodo.json` is a local Zenodo metadata draft, and `metadata/deposit_contact.md` records Fan Qiu as the planned uploader. These repository roles do not alter the supplied manuscript, which currently identifies Xuehui Yang as the manuscript corresponding author. The Zenodo DOI should be added only after the final release has been inspected and authorized.
+`CITATION.cff` records the confirmed author order, MIT software license, repository URL, version-specific Zenodo DOI, and Fan Qiu as the repository contact. `.zenodo.json` records the release metadata, and `metadata/deposit_contact.md` records Fan Qiu as the uploader. These repository roles do not alter the supplied manuscript, which identifies Xuehui Yang as the manuscript corresponding author.
