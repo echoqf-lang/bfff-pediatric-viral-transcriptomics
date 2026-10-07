@@ -8,4 +8,4 @@
 - Yuyue Yin and Xuehui Yang affiliation: Yancheng Hospital of Traditional Chinese Medicine, Yancheng 224005, Jiangsu, China.
 - ORCIDs: not supplied; none have been inferred.
 
-Role distinction: the author-supplied Word manuscript currently identifies Xuehui Yang as the manuscript corresponding author. This repository metadata records Fan Qiu as the repository contact and planned data/software depositor and does not modify the manuscript's corresponding-author designation.
+Role alignment: the author-supplied Word manuscript identifies Fan Qiu as the corresponding author. This repository metadata likewise records Fan Qiu as the repository contact and data/software depositor.

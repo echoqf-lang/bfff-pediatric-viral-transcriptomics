@@ -71,4 +71,4 @@ See `LICENSE`, `LICENSES/`, and `LICENSE_STATUS.md`. MIT applies to original cod
 
 ## Citation
 
-`CITATION.cff` records the confirmed author order, MIT software license, repository URL, version-specific Zenodo DOI, and Fan Qiu as the repository contact. `.zenodo.json` records the release metadata, and `metadata/deposit_contact.md` records Fan Qiu as the uploader. These repository roles do not alter the supplied manuscript, which identifies Xuehui Yang as the manuscript corresponding author.
+`CITATION.cff` records the confirmed author order, MIT software license, repository URL, version-specific Zenodo DOI, and Fan Qiu as the repository contact. `.zenodo.json` records the release metadata, and `metadata/deposit_contact.md` records Fan Qiu as the uploader. The supplied manuscript also identifies Fan Qiu as the corresponding author.
