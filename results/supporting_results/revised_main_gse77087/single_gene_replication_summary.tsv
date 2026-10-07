@@ -1,0 +1,2 @@
+n_discovery_genes	n_mapped_gse77087	n_direction_concordant	n_replicated_candidate_family	n_replicated_genome_fdr	n_replicated_genome_fdr_effect	pearson_r	pearson_p	spearman_rho	spearman_p
+86	86	77	46	41	39	0.7409972251	3.443033118e-16	0.7354214821	7.414534266e-16

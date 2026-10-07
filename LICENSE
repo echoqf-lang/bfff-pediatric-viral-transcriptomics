@@ -1,0 +1,8 @@
+# Dual-license scope
+
+Copyright (c) 2026 Fan Qiu, Yuyue Yin, and Xuehui Yang.
+
+1. Original source code in `analysis/`, `scripts/`, and `run_analysis.R` is licensed under the MIT License. See `LICENSES/MIT.txt`.
+2. Author-generated derived data tables, figures, metadata, and documentation are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). See `LICENSES/CC-BY-4.0.txt`.
+3. This license grant does not cover third-party GEO data, TCMSP, BATMAN-TCM, BloodGen3, annotation resources, or any material whose rights are held by another party. Such material remains subject to its original terms.
+4. Downloaded expression payloads, full third-party database exports, and the institution's internal clinical document are not distributed in this repository.

@@ -1,0 +1,7 @@
+series_accession	rule_id	n_rows	n_agree	n_disagree	n_unresolved	n_machine_include	n_final_include	n_final_exclude	reviewed_at	reviewer
+GSE103119	R06_exploratory_exact_RSV_single_or_healthy	172	172	0	0	31	31	141	2026-08-05T11:21:02+0800	independent_sample_reviewer
+GSE103842	R02_confirmatory_acute_RSV_or_healthy	74	74	0	0	74	74	0	2026-08-05T11:21:02+0800	independent_sample_reviewer
+GSE105450	R01_confirmatory_acute_RSV_or_healthy_deduplicate	127	127	0	0	122	122	5	2026-08-05T11:21:02+0800	independent_sample_reviewer
+GSE155925	R05_exploratory_single_virus_hospitalized	64	64	0	0	48	48	16	2026-08-05T11:21:02+0800	independent_sample_reviewer
+GSE188427	R03_substitution_Day1_or_healthy_only	353	353	0	0	198	198	155	2026-08-05T11:21:02+0800	independent_sample_reviewer
+GSE38900	R04_exploratory_nonNCH_acute_RSV_or_healthy	241	241	0	0	138	138	103	2026-08-05T11:21:02+0800	independent_sample_reviewer

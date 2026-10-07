@@ -1,0 +1,7 @@
+accession	tissue_context	v6_role	input_policy	public_url
+GSE38900	whole blood	outcome-selected discovery cohort	processed GEO Series Matrix and metadata	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE38900
+GSE77087	whole blood	primary external blood replication and severity analysis	processed GEO Series Matrix and metadata	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE77087
+GSE103842	whole blood	independent blood replication	processed GEO Series Matrix and metadata	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE103842
+GSE97742	nasal/airway samples	longitudinal acute-to-discharge airway analysis	processed GEO Series Matrix and metadata	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE97742
+GSE41374	nasopharyngeal samples	cross-sectional RSV-versus-healthy airway analysis	processed GEO Series Matrix and metadata	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE41374
+GSE155925	whole blood	RSV-versus-other-virus context analysis	processed GEO Series Matrix and metadata	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE155925

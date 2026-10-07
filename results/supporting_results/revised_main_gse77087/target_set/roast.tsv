@@ -1,0 +1,7 @@
+cohort	contrast	test_direction	n_frozen	n_detectable	coverage	active_proportion	p_value	p_holm	nrot	seed	role
+GSE77087	RSV_minus_healthy	Down	520	460	0.884615384615385	0.21304347826087	0.901629508147541	0.901629508147541	99999	20260805	key_supplementary_self_contained
+GSE77087	RSV_minus_healthy	Up	520	460	0.884615384615385	0.245652173913043	0.0983754918774594	0.196750983754919	99999	20260805	key_supplementary_self_contained
+GSE77087	RSV_minus_healthy	Mixed	520	460	0.884615384615385	0.458695652173913	1e-05	3e-05	99999	20260805	key_supplementary_self_contained
+GSE103842	RSV_minus_healthy	Down	520	374	0.719230769230769	0.0935828877005348	1	1	99999	20260805	key_supplementary_self_contained
+GSE103842	RSV_minus_healthy	Up	520	374	0.719230769230769	0.355614973262032	5.000025000125e-06	1.5000075000375e-05	99999	20260805	key_supplementary_self_contained
+GSE103842	RSV_minus_healthy	Mixed	520	374	0.719230769230769	0.449197860962567	1e-05	2e-05	99999	20260805	key_supplementary_self_contained

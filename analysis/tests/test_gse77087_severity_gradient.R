@@ -1,0 +1,25 @@
+#!/usr/bin/env Rscript
+
+options(stringsAsFactors = FALSE)
+suppressPackageStartupMessages(library(testthat))
+
+test_that("GSE77087 severity outputs obey the frozen contract", {
+  root <- file.path("results", "single_gene_upgrade_v1", "severity")
+  trend_path <- file.path(root, "GSE77087_86_gene_ordinal_trend.tsv")
+  contrast_path <- file.path(root, "GSE77087_86_gene_group_contrasts.tsv")
+  diagnostic_path <- file.path(root, "severity_model_diagnostics.tsv")
+  expect_true(file.exists(trend_path))
+  expect_true(file.exists(contrast_path))
+  expect_true(file.exists(diagnostic_path))
+  trend <- read.delim(trend_path, check.names = FALSE)
+  contrasts <- read.delim(contrast_path, check.names = FALSE)
+  diagnostic <- read.delim(diagnostic_path, check.names = FALSE)
+  expect_equal(nrow(trend), 86L)
+  expect_equal(nrow(contrasts), 258L)
+  expect_equal(length(unique(trend$gene_id)), 86L)
+  expect_setequal(unique(contrasts$contrast), c("outpatient_minus_healthy", "hospitalized_minus_healthy", "hospitalized_minus_outpatient"))
+  expect_equal(diagnostic$n_total, 104L)
+  expect_equal(c(diagnostic$n_healthy, diagnostic$n_outpatient, diagnostic$n_hospitalized), c(23L, 20L, 61L))
+  expect_equal(diagnostic$trend_design_rank, diagnostic$trend_design_columns)
+  expect_equal(diagnostic$group_design_rank, diagnostic$group_design_columns)
+})

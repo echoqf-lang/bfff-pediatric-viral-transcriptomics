@@ -1,0 +1,17 @@
+comparison	axis	term	NGenes	Direction	expected	direction_matches_expected	PValue	fdr_bh_fixed_family
+GSE41374_RSV_vs_healthy	Barrier_cilia	cilium movement	254	Down	Down	TRUE	9.43985021066353e-11	1.51037603370616e-09
+GSE41374_RSV_vs_healthy	Barrier_cilia	cilium organization	414	Down	Down	TRUE	1.25067485189372e-06	1.00053988151498e-05
+GSE41374_RSV_vs_healthy	Inflammation	neutrophil activation	42	Up	Up	TRUE	1.1421438867016e-05	6.09143406240851e-05
+GSE41374_RSV_vs_healthy	Inflammation	myeloid leukocyte activation	219	Up	Up	TRUE	0.00236171889159068	0.00944687556636273
+GSE41374_RSV_vs_healthy	Inflammation	response to type I interferon	120	Up	Up	TRUE	0.00489934973032447	0.0156779191370383
+GSE41374_RSV_vs_healthy	Inflammation	cytokine-mediated signaling pathway	527	Up	Up	TRUE	0.0208856221277995	0.0507768987229454
+GSE41374_RSV_vs_healthy	Inflammation	inflammatory response	831	Up	Up	TRUE	0.0222148931912886	0.0507768987229454
+GSE41374_RSV_vs_healthy	Barrier_cilia	cell-cell junction organization	185	Down	Down	TRUE	0.202284692730397	0.360700259530457
+GSE41374_RSV_vs_healthy	Barrier_cilia	tight junction organization	68	Down	Down	TRUE	0.202893895985882	0.360700259530457
+GSE41374_RSV_vs_healthy	Repair_turnover	regulation of apoptotic process	1270	Up	Up	TRUE	0.352597924671612	0.557275279321525
+GSE41374_RSV_vs_healthy	Repair_turnover	wound healing	390	Up	Up	TRUE	0.40722730297604	0.557275279321525
+GSE41374_RSV_vs_healthy	Barrier_cilia	extracellular matrix organization	269	Up	Up	TRUE	0.417956459491143	0.557275279321525
+GSE41374_RSV_vs_healthy	Repair_turnover	cell cycle	1599	Up	Up	TRUE	0.572540356863458	0.704665054601179
+GSE41374_RSV_vs_healthy	Repair_turnover	tissue regeneration	58	Up	Up	TRUE	0.75795145237416	0.845092535157312
+GSE41374_RSV_vs_healthy	Barrier_cilia	epithelial cell differentiation	559	Down	Down	TRUE	0.79227425170998	0.845092535157312
+GSE41374_RSV_vs_healthy	Repair_turnover	epithelial cell proliferation	346	Up	Up	TRUE	0.988548132314053	0.988548132314053

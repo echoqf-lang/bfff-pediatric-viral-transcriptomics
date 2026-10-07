@@ -1,0 +1,2 @@
+n_total	n_healthy	n_outpatient	n_hospitalized	trend_design_rank	trend_design_columns	group_design_rank	group_design_columns	mapped_genes	trend_bh_lt_0_05_n	hospitalized_vs_outpatient_bh_lt_0_05_n
+104	23	20	61	5	5	6	6	86	41	4

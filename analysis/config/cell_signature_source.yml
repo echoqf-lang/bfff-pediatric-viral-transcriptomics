@@ -1,0 +1,15 @@
+analysis_label: post_outcome_exploratory_cell_composition_sensitivity
+status: unavailable_for_valid_real_data_analysis
+signature_file: null
+method: nonnegative_least_squares_reference_deconvolution
+target_population: pediatric_whole_blood_during_acute_RSV_infection
+minimum_marker_coverage: 0.70
+maximum_boundary_fraction: 0.20
+minimum_simulation_spearman: 0.80
+required_major_cell_class: true
+blind_qc_before_case_labels: true
+stop_reason: No fixed, publicly auditable and locally available reference signature validated for pediatric acute-infection whole-blood microarrays was identified; adult LM22 or tumor RNA-seq signatures would introduce an unquantified reference mismatch.
+fallback: Retain BloodGen3 cell-associated module results as transcriptomic context, not as estimated cell fractions.
+notes:
+  - No cell signature or package was downloaded.
+  - Estimated fractions, if ever generated with a validated signature, must not be described as measured blood counts or cell-type-specific expression.

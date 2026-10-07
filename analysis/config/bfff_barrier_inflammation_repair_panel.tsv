@@ -1,0 +1,21 @@
+axis	gene_symbol	role	priority
+Barrier_remodeling	KRT18	epithelial injury/structure	core
+Barrier_remodeling	CTSL	proteolytic injury	secondary
+Barrier_remodeling	COL1A1	extracellular-matrix remodeling	secondary
+Barrier_remodeling	THBS1	matrix and injury response	secondary
+Barrier_remodeling	SERPING1	protease/complement regulation	secondary
+Barrier_remodeling	MMP9	legacy barrier hypothesis; falsification check	negative_check
+Inflammation	MYD88	innate immune adaptor	core
+Inflammation	LY96	pattern-recognition co-receptor	core
+Inflammation	JAK2	JAK-STAT signaling	core
+Inflammation	STAT1	interferon signaling	core
+Inflammation	SOCS3	inflammatory feedback	core
+Inflammation	CXCL10	inflammatory chemokine	core
+Inflammation	CCL2	monocyte recruitment	core
+Inflammation	LCN2	myeloid inflammation	core
+Repair_stress	HMOX1	oxidative-stress protection	core
+Repair_stress	GADD45A	stress and damage response	core
+Repair_stress	PLSCR1	membrane remodeling/stress response	core
+Repair_stress	EGR1	immediate-early repair response	core
+Repair_stress	GADD45B	legacy repair hypothesis; falsification check	negative_check
+Repair_stress	CCNE1	proliferation hypothesis; falsification check	negative_check

@@ -1,0 +1,3 @@
+cohort	analysis_label	model_formula	n_complete	n_healthy	n_RSV	batch_included	genes_tested
+GSE77087	post_outcome_investigator_selected_revised_main	~case_status + age_months + sex + technical_batch	104	23	81	TRUE	18015
+GSE103842	post_outcome_investigator_selected_revised_main	~case_status + age_months + sex + technical_batch	73	12	61	TRUE	12475

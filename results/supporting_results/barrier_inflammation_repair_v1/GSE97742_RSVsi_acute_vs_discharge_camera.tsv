@@ -1,0 +1,17 @@
+comparison	axis	term	NGenes	Direction	expected	direction_matches_expected	PValue	fdr_bh_fixed_family
+GSE97742_RSVsi_acute_vs_discharge	Barrier_cilia	cilium movement	220	Down	Down	TRUE	1.59299623094943e-24	2.54879396951908e-23
+GSE97742_RSVsi_acute_vs_discharge	Barrier_cilia	cilium organization	393	Down	Down	TRUE	3.28075943372312e-21	2.62460754697849e-20
+GSE97742_RSVsi_acute_vs_discharge	Inflammation	cytokine-mediated signaling pathway	460	Up	Up	TRUE	6.27195506891318e-07	3.34504270342036e-06
+GSE97742_RSVsi_acute_vs_discharge	Inflammation	response to type I interferon	117	Up	Up	TRUE	8.8666638726573e-07	3.54666554906292e-06
+GSE97742_RSVsi_acute_vs_discharge	Inflammation	inflammatory response	702	Up	Up	TRUE	3.4719619929471e-06	1.11102783774307e-05
+GSE97742_RSVsi_acute_vs_discharge	Inflammation	myeloid leukocyte activation	195	Up	Up	TRUE	5.59035224183252e-06	1.49076059782201e-05
+GSE97742_RSVsi_acute_vs_discharge	Repair_turnover	wound healing	318	Up	Up	TRUE	0.000636931657395332	0.00145584378833219
+GSE97742_RSVsi_acute_vs_discharge	Inflammation	neutrophil activation	39	Up	Up	TRUE	0.000738826991300606	0.00147765398260121
+GSE97742_RSVsi_acute_vs_discharge	Repair_turnover	regulation of apoptotic process	1100	Up	Up	TRUE	0.00133739598777757	0.00237759286716012
+GSE97742_RSVsi_acute_vs_discharge	Repair_turnover	epithelial cell proliferation	255	Up	Up	TRUE	0.00284936796425984	0.00455898874281575
+GSE97742_RSVsi_acute_vs_discharge	Barrier_cilia	epithelial cell differentiation	433	Up	Down	FALSE	0.101461823477461	0.147580834149035
+GSE97742_RSVsi_acute_vs_discharge	Barrier_cilia	extracellular matrix organization	214	Up	Up	TRUE	0.126548031918899	0.168730709225198
+GSE97742_RSVsi_acute_vs_discharge	Barrier_cilia	cell-cell junction organization	156	Up	Down	FALSE	0.166497261241173	0.204919706142982
+GSE97742_RSVsi_acute_vs_discharge	Barrier_cilia	tight junction organization	60	Up	Down	FALSE	0.240718966991261	0.275107390847156
+GSE97742_RSVsi_acute_vs_discharge	Repair_turnover	cell cycle	1422	Down	Up	FALSE	0.496037825244205	0.529107013593819
+GSE97742_RSVsi_acute_vs_discharge	Repair_turnover	tissue regeneration	47	Up	Up	TRUE	0.678204962897561	0.678204962897561

@@ -1,0 +1,4 @@
+specificity_class	n_genes	analysis_label	n_rsv	n_other_single_virus
+not_distinguished_from_other_viruses_at_current_precision	78	post_outcome_exploratory_multicohort_upgrade_v1	31	17
+not_estimable	7	post_outcome_exploratory_multicohort_upgrade_v1	31	17
+relative_rsv_enriched	1	post_outcome_exploratory_multicohort_upgrade_v1	31	17

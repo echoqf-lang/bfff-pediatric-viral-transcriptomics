@@ -1,0 +1,22 @@
+resource_name: BloodGen3 fixed blood transcriptional module repertoire
+package: BloodGen3Module
+package_version: 1.18.0
+bioconductor_release: "3.22"
+source_url: https://bioconductor.org/packages/3.22/bioc/src/contrib/BloodGen3Module_1.18.0.tar.gz
+source_file: data/reference/bloodgen3/BloodGen3Module_1.18.0.tar.gz
+sha256: cf31812e17591d088a05e26fc27a8ff3f201b8ef23c7dc7e1761a99a7b558334
+license: GPL-2
+module_object: Module_listGen3
+annotation_object: Gen3_ann
+expected_modules: 382
+expected_memberships: 14168
+analysis_label: post_outcome_exploratory_fixed_module_analysis
+effect_direction: RSV_minus_healthy
+minimum_module_coverage: 0.50
+testing_method: cameraPR_competitive_test
+inter_gene_correlation: 0.01
+multiplicity: BH_within_each_cohort_across_evaluable_modules
+effect_summary: median_gene_log2FC
+notes:
+  - Only the small official package source archive was downloaded; no additional GEO raw data were downloaded.
+  - Module analysis is exploratory and cannot establish BFFF exposure, target engagement, or causal mechanism.

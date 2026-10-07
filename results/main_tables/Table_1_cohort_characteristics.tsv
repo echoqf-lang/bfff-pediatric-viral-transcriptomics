@@ -1,0 +1,7 @@
+GEO_accession	Platform	Compartment	Design	Main_comparison	Analysis_n	Group_detail	Evidence_role	Model_or_adjustment	Interpretation_boundary
+GSE38900	GPL6884 (predominant)	Whole blood	Cross-sectional	RSV vs healthy	138	107 RSV; 31 healthy	Outcome-selected discovery	Existing discovery workflow	Not independent validation
+GSE77087	GPL10558	Whole blood	Cross-sectional	RSV vs healthy	104	81 RSV; 23 healthy	Primary exploratory blood replication	Age + sex + technical batch	No BFFF exposure
+GSE103842	GPL10558	Whole blood	Cross-sectional	RSV vs healthy	73	61 RSV; 12 healthy	Second blood replication	Age + sex + technical batch	No BFFF exposure
+GSE97742	GPL10558	Nasopharyngeal swab	Paired longitudinal	Acute vs discharge; RSV vs hRV change	136	38 RSV pairs; 30 hRV pairs	Longitudinal airway localization	Subject blocking; interaction adjusted for age + sex	Discharge is not a healthy baseline
+GSE41374	GPL10558	Nasal wash	Cross-sectional	RSV vs healthy	86	76 RSV; 10 healthy	Independent cross-sectional airway localization	Age + sex; two-transformation robustness	Small healthy group; transformation sensitivity
+GSE155925	GPL16791	Whole blood	Cross-sectional	Single RSV vs other single-virus infections	48	31 RSV; 17 other-virus	Exploratory viral-context comparison	Age + sex + hospital batch + enrollment batch	No healthy controls; not an independent confirmation

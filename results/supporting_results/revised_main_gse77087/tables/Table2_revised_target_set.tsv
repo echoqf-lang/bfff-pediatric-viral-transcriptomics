@@ -1,0 +1,4 @@
+analysis	test	direction	n_targets_evaluable	p_value	p_lt_0_05	evidence_role
+GSE77087	CAMERA two-sided	Up	460	0.257658129722232	FALSE	post_outcome_investigator_selected_revised_main
+GSE103842	CAMERA two-sided	Up	374	0.134656092848054	FALSE	post_outcome_investigator_selected_revised_main
+Weighted Stouffer	sample-size-weighted signed Stouffer	concordant Up	NA	0.0674886934025154	FALSE	post_outcome_investigator_selected_revised_main

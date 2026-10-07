@@ -1,0 +1,49 @@
+comparison	axis	term	NGenes	Direction	expected	direction_matches_expected	PValue	fdr_bh_fixed_family
+GSE97742_RSVsi_acute_vs_discharge	Barrier_cilia	cilium movement	220	Down	Down	TRUE	1.59299623094943e-24	2.54879396951908e-23
+GSE97742_RSVsi_acute_vs_discharge	Barrier_cilia	cilium organization	393	Down	Down	TRUE	3.28075943372312e-21	2.62460754697849e-20
+GSE97742_RSVsi_acute_vs_discharge	Inflammation	cytokine-mediated signaling pathway	460	Up	Up	TRUE	6.27195506891318e-07	3.34504270342036e-06
+GSE97742_RSVsi_acute_vs_discharge	Inflammation	response to type I interferon	117	Up	Up	TRUE	8.8666638726573e-07	3.54666554906292e-06
+GSE97742_RSVsi_acute_vs_discharge	Inflammation	inflammatory response	702	Up	Up	TRUE	3.4719619929471e-06	1.11102783774307e-05
+GSE97742_RSVsi_acute_vs_discharge	Inflammation	myeloid leukocyte activation	195	Up	Up	TRUE	5.59035224183252e-06	1.49076059782201e-05
+GSE97742_RSVsi_acute_vs_discharge	Repair_turnover	wound healing	318	Up	Up	TRUE	0.000636931657395332	0.00145584378833219
+GSE97742_RSVsi_acute_vs_discharge	Inflammation	neutrophil activation	39	Up	Up	TRUE	0.000738826991300606	0.00147765398260121
+GSE97742_RSVsi_acute_vs_discharge	Repair_turnover	regulation of apoptotic process	1100	Up	Up	TRUE	0.00133739598777757	0.00237759286716012
+GSE97742_RSVsi_acute_vs_discharge	Repair_turnover	epithelial cell proliferation	255	Up	Up	TRUE	0.00284936796425984	0.00455898874281575
+GSE97742_RSVsi_acute_vs_discharge	Barrier_cilia	epithelial cell differentiation	433	Up	Down	FALSE	0.101461823477461	0.147580834149035
+GSE97742_RSVsi_acute_vs_discharge	Barrier_cilia	extracellular matrix organization	214	Up	Up	TRUE	0.126548031918899	0.168730709225198
+GSE97742_RSVsi_acute_vs_discharge	Barrier_cilia	cell-cell junction organization	156	Up	Down	FALSE	0.166497261241173	0.204919706142982
+GSE97742_RSVsi_acute_vs_discharge	Barrier_cilia	tight junction organization	60	Up	Down	FALSE	0.240718966991261	0.275107390847156
+GSE97742_RSVsi_acute_vs_discharge	Repair_turnover	cell cycle	1422	Down	Up	FALSE	0.496037825244205	0.529107013593819
+GSE97742_RSVsi_acute_vs_discharge	Repair_turnover	tissue regeneration	47	Up	Up	TRUE	0.678204962897561	0.678204962897561
+GSE97742_hRV_acute_vs_discharge	Barrier_cilia	cilium movement	220	Down	Down	TRUE	8.46427350181791e-36	1.35428376029087e-34
+GSE97742_hRV_acute_vs_discharge	Barrier_cilia	cilium organization	393	Down	Down	TRUE	2.36620110559403e-28	1.89296088447522e-27
+GSE97742_hRV_acute_vs_discharge	Inflammation	myeloid leukocyte activation	195	Up	Up	TRUE	0.000268877484693209	0.000915609728433429
+GSE97742_hRV_acute_vs_discharge	Repair_turnover	wound healing	318	Up	Up	TRUE	0.000285982779546439	0.000915609728433429
+GSE97742_hRV_acute_vs_discharge	Inflammation	neutrophil activation	39	Up	Up	TRUE	0.000286128040135447	0.000915609728433429
+GSE97742_hRV_acute_vs_discharge	Inflammation	inflammatory response	702	Up	Up	TRUE	0.00157987812001297	0.00421300832003458
+GSE97742_hRV_acute_vs_discharge	Inflammation	cytokine-mediated signaling pathway	460	Up	Up	TRUE	0.0130695839317627	0.0298733347011718
+GSE97742_hRV_acute_vs_discharge	Repair_turnover	regulation of apoptotic process	1100	Up	Up	TRUE	0.0176431957239548	0.0352863914479095
+GSE97742_hRV_acute_vs_discharge	Repair_turnover	epithelial cell proliferation	255	Up	Up	TRUE	0.0263135157431109	0.0467795835433082
+GSE97742_hRV_acute_vs_discharge	Barrier_cilia	extracellular matrix organization	214	Up	Up	TRUE	0.0582641413345458	0.0932226261352733
+GSE97742_hRV_acute_vs_discharge	Barrier_cilia	epithelial cell differentiation	433	Up	Down	FALSE	0.162745628286411	0.236720913871144
+GSE97742_hRV_acute_vs_discharge	Repair_turnover	tissue regeneration	47	Up	Up	TRUE	0.356493918390688	0.475325224520918
+GSE97742_hRV_acute_vs_discharge	Inflammation	response to type I interferon	117	Up	Up	TRUE	0.403392729834993	0.496483359796914
+GSE97742_hRV_acute_vs_discharge	Barrier_cilia	cell-cell junction organization	156	Up	Down	FALSE	0.475193863702363	0.543078701374129
+GSE97742_hRV_acute_vs_discharge	Repair_turnover	cell cycle	1422	Down	Up	FALSE	0.688729760127428	0.734645077469256
+GSE97742_hRV_acute_vs_discharge	Barrier_cilia	tight junction organization	60	Up	Down	FALSE	0.742082464811924	0.742082464811924
+GSE41374_RSV_vs_healthy	Barrier_cilia	cilium movement	254	Down	Down	TRUE	9.43985021066353e-11	1.51037603370616e-09
+GSE41374_RSV_vs_healthy	Barrier_cilia	cilium organization	414	Down	Down	TRUE	1.25067485189372e-06	1.00053988151498e-05
+GSE41374_RSV_vs_healthy	Inflammation	neutrophil activation	42	Up	Up	TRUE	1.1421438867016e-05	6.09143406240851e-05
+GSE41374_RSV_vs_healthy	Inflammation	myeloid leukocyte activation	219	Up	Up	TRUE	0.00236171889159068	0.00944687556636273
+GSE41374_RSV_vs_healthy	Inflammation	response to type I interferon	120	Up	Up	TRUE	0.00489934973032447	0.0156779191370383
+GSE41374_RSV_vs_healthy	Inflammation	cytokine-mediated signaling pathway	527	Up	Up	TRUE	0.0208856221277995	0.0507768987229454
+GSE41374_RSV_vs_healthy	Inflammation	inflammatory response	831	Up	Up	TRUE	0.0222148931912886	0.0507768987229454
+GSE41374_RSV_vs_healthy	Barrier_cilia	cell-cell junction organization	185	Down	Down	TRUE	0.202284692730397	0.360700259530457
+GSE41374_RSV_vs_healthy	Barrier_cilia	tight junction organization	68	Down	Down	TRUE	0.202893895985882	0.360700259530457
+GSE41374_RSV_vs_healthy	Repair_turnover	regulation of apoptotic process	1270	Up	Up	TRUE	0.352597924671612	0.557275279321525
+GSE41374_RSV_vs_healthy	Repair_turnover	wound healing	390	Up	Up	TRUE	0.40722730297604	0.557275279321525
+GSE41374_RSV_vs_healthy	Barrier_cilia	extracellular matrix organization	269	Up	Up	TRUE	0.417956459491143	0.557275279321525
+GSE41374_RSV_vs_healthy	Repair_turnover	cell cycle	1599	Up	Up	TRUE	0.572540356863458	0.704665054601179
+GSE41374_RSV_vs_healthy	Repair_turnover	tissue regeneration	58	Up	Up	TRUE	0.75795145237416	0.845092535157312
+GSE41374_RSV_vs_healthy	Barrier_cilia	epithelial cell differentiation	559	Down	Down	TRUE	0.79227425170998	0.845092535157312
+GSE41374_RSV_vs_healthy	Repair_turnover	epithelial cell proliferation	346	Up	Up	TRUE	0.988548132314053	0.988548132314053

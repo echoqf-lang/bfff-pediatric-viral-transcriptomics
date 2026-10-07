@@ -1,0 +1,8 @@
+relative_path	series_accession	platforms_in_header	n_sample_ids_in_header	stopped_before_table	expression_values_read
+data/raw/GSE103119/GSE103119_series_matrix.txt.gz	GSE103119	GPL10558	172	TRUE	FALSE
+data/raw/GSE103842/GSE103842_series_matrix.txt.gz	GSE103842	GPL10558	74	TRUE	FALSE
+data/raw/GSE105450/GSE105450_series_matrix.txt.gz	GSE105450	GPL10558	127	TRUE	FALSE
+data/raw/GSE155925/GSE155925_series_matrix.txt.gz	GSE155925	GPL16791	64	TRUE	FALSE
+data/raw/GSE188427/GSE188427_series_matrix.txt.gz	GSE188427	GPL25336	353	TRUE	FALSE
+data/raw/GSE38900/GSE38900-GPL10558_series_matrix.txt.gz	GSE38900	GPL6884;GPL10558	241	TRUE	FALSE
+data/raw/GSE38900/GSE38900-GPL6884_series_matrix.txt.gz	GSE38900	GPL6884;GPL10558	241	TRUE	FALSE

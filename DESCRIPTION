@@ -1,0 +1,22 @@
+Package: bufei.fanggan.analysis
+Type: Project
+Title: Reproducible Environment for the Bu Fei Fang Gan RSV Analysis
+Version: 0.0.0.9000
+Description: Declares the frozen runtime dependencies for the preregistered
+    multi-cohort transcriptomic analysis. This is an analysis project, not a
+    distributable R package.
+License: file LICENSE
+Encoding: UTF-8
+Imports:
+    AnnotationDbi,
+    Biobase,
+    fgsea,
+    GEOquery,
+    limma,
+    metafor,
+    msigdbr,
+    org.Hs.eg.db,
+    sva,
+    testthat,
+    variancePartition,
+    yaml

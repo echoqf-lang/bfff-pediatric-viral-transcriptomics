@@ -1,0 +1,10 @@
+Evidence_layer	Numerator	Denominator	Interpretation
+Frozen candidate universe	86	86	Formal analysis universe
+Blood direction reproducibility	77	86	GSE38900 and GSE77087 same effect direction
+Three-cohort direction reproducibility	69	81	Same effect direction across all estimable blood cohorts
+Conventional HKSJ meta-analysis	5	81	REML-HKSJ with conventional variance estimate; exploratory
+Modified HKSJ sensitivity	0	81	Ad hoc modified variance estimate; conservative small-k diagnostic
+GSE77087 genome-wide blood support	41	86	Direction-concordant and transcriptome-wide FDR < 0.05
+GSE103842 genome-wide blood support	37	81	Direction-concordant and transcriptome-wide FDR < 0.05
+Any airway support	24	86	Support in at least one prespecified airway analysis
+Blood-to-airway candidates	16	86	GSE77087 blood support plus at least one airway analysis

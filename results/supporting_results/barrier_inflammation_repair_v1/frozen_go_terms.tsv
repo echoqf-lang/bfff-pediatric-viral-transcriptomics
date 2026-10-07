@@ -1,0 +1,17 @@
+axis	term	expected	go_id
+Barrier_cilia	cilium organization	Down	GO:0044782
+Barrier_cilia	cilium movement	Down	GO:0003341
+Barrier_cilia	epithelial cell differentiation	Down	GO:0030855
+Barrier_cilia	cell-cell junction organization	Down	GO:0045216
+Barrier_cilia	tight junction organization	Down	GO:0120193
+Barrier_cilia	extracellular matrix organization	Up	GO:0030198
+Inflammation	inflammatory response	Up	GO:0006954
+Inflammation	response to type I interferon	Up	GO:0034340
+Inflammation	neutrophil activation	Up	GO:0042119
+Inflammation	myeloid leukocyte activation	Up	GO:0002274
+Inflammation	cytokine-mediated signaling pathway	Up	GO:0019221
+Repair_turnover	wound healing	Up	GO:0042060
+Repair_turnover	tissue regeneration	Up	GO:0042246
+Repair_turnover	epithelial cell proliferation	Up	GO:0050673
+Repair_turnover	regulation of apoptotic process	Up	GO:0042981
+Repair_turnover	cell cycle	Up	GO:0007049

@@ -1,0 +1,32 @@
+
+cff-version: 1.2.0
+message: "Please cite this software using the metadata below; add the DOI after the authorized public release."
+title: "Reproducibility package for cross-context transcriptomic mapping of pediatric viral respiratory infection within a Bufei Fanggan Formula-derived candidate space"
+type: software
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/echoqf-lang/bfff-pediatric-viral-transcriptomics"
+authors:
+  - family-names: Qiu
+    given-names: Fan
+    affiliation: "School of Traditional Chinese Medicine, Jiangsu Medical College, Yancheng 224005, Jiangsu, China"
+    email: echo_qf@163.com
+    contact: true
+  - family-names: Yin
+    given-names: Yuyue
+    affiliation: "Yancheng Hospital of Traditional Chinese Medicine, Yancheng 224005, Jiangsu, China"
+    email: we66882026@163.com
+  - family-names: Yang
+    given-names: Xuehui
+    affiliation: "Yancheng Hospital of Traditional Chinese Medicine, Yancheng 224005, Jiangsu, China"
+    email: yangxh99@126.com
+keywords:
+  - respiratory syncytial virus
+  - pediatric transcriptomics
+  - cross-context integration
+  - reproducible research
+abstract: >-
+  Local pre-release analysis code, frozen configuration, provenance records,
+  checksums, and compact derived results supporting a multi-cohort secondary
+  analysis of public pediatric blood and airway transcriptomes. No analyzed
+  cohort included exposure to Bufei Fanggan Formula.

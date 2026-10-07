@@ -1,0 +1,9 @@
+metric	value
+target_universe	86
+representative_nodes	20
+GSE77087_concordant_genome_fdr_support	41
+GSE103842_concordant_genome_fdr_support	37
+GSE97742_airway_fdr_support	19
+GSE41374_airway_robust_fdr_support	8
+any_airway_fdr_support	24
+blood_GSE77087_and_any_airway_support	16

@@ -1,0 +1,5 @@
+cohort_a	cohort_b	overlap_risk	evidence	frozen_action
+GSE105450	GSE188427	high_possible	same NCH longitudinal study context; participant-level crosswalk unavailable	never include together as independent confirmation; GSE188427 substitutes only
+GSE105450	GSE38900	center_specific	GSE38900 Columbus is NCH; Dallas/Turku are explicit non-NCH sources	exclude all Columbus samples from GSE38900 exploratory retained set
+GSE38900	GSE105450	center_specific	Columbus samples excluded; only Dallas/Turku retained	retained units cannot enter confirmatory meta
+GSE103119	GSE105450	possible_NCH_context	NCH cohort but exploratory CAP study; no cross-study participant key	exploratory only; never enter confirmatory meta

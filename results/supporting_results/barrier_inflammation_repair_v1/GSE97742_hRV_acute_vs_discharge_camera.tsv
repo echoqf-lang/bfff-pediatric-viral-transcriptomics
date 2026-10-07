@@ -1,0 +1,17 @@
+comparison	axis	term	NGenes	Direction	expected	direction_matches_expected	PValue	fdr_bh_fixed_family
+GSE97742_hRV_acute_vs_discharge	Barrier_cilia	cilium movement	220	Down	Down	TRUE	8.46427350181791e-36	1.35428376029087e-34
+GSE97742_hRV_acute_vs_discharge	Barrier_cilia	cilium organization	393	Down	Down	TRUE	2.36620110559403e-28	1.89296088447522e-27
+GSE97742_hRV_acute_vs_discharge	Inflammation	myeloid leukocyte activation	195	Up	Up	TRUE	0.000268877484693209	0.000915609728433429
+GSE97742_hRV_acute_vs_discharge	Repair_turnover	wound healing	318	Up	Up	TRUE	0.000285982779546439	0.000915609728433429
+GSE97742_hRV_acute_vs_discharge	Inflammation	neutrophil activation	39	Up	Up	TRUE	0.000286128040135447	0.000915609728433429
+GSE97742_hRV_acute_vs_discharge	Inflammation	inflammatory response	702	Up	Up	TRUE	0.00157987812001297	0.00421300832003458
+GSE97742_hRV_acute_vs_discharge	Inflammation	cytokine-mediated signaling pathway	460	Up	Up	TRUE	0.0130695839317627	0.0298733347011718
+GSE97742_hRV_acute_vs_discharge	Repair_turnover	regulation of apoptotic process	1100	Up	Up	TRUE	0.0176431957239548	0.0352863914479095
+GSE97742_hRV_acute_vs_discharge	Repair_turnover	epithelial cell proliferation	255	Up	Up	TRUE	0.0263135157431109	0.0467795835433082
+GSE97742_hRV_acute_vs_discharge	Barrier_cilia	extracellular matrix organization	214	Up	Up	TRUE	0.0582641413345458	0.0932226261352733
+GSE97742_hRV_acute_vs_discharge	Barrier_cilia	epithelial cell differentiation	433	Up	Down	FALSE	0.162745628286411	0.236720913871144
+GSE97742_hRV_acute_vs_discharge	Repair_turnover	tissue regeneration	47	Up	Up	TRUE	0.356493918390688	0.475325224520918
+GSE97742_hRV_acute_vs_discharge	Inflammation	response to type I interferon	117	Up	Up	TRUE	0.403392729834993	0.496483359796914
+GSE97742_hRV_acute_vs_discharge	Barrier_cilia	cell-cell junction organization	156	Up	Down	FALSE	0.475193863702363	0.543078701374129
+GSE97742_hRV_acute_vs_discharge	Repair_turnover	cell cycle	1422	Down	Up	FALSE	0.688729760127428	0.734645077469256
+GSE97742_hRV_acute_vs_discharge	Barrier_cilia	tight junction organization	60	Up	Down	FALSE	0.742082464811924	0.742082464811924

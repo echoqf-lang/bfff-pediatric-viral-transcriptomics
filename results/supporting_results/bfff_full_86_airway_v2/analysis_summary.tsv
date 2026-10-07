@@ -1,0 +1,7 @@
+metric	value
+target_universe	86
+representative_nodes	20
+GSE97742_mapped	85
+GSE97742_86_family_fdr_lt_0.05	19
+GSE41374_mapped	86
+GSE41374_robust_86_family_fdr_lt_0.05	8

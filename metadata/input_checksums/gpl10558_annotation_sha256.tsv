@@ -1,0 +1,2 @@
+platform	official_url	relative_path	bytes	sha256	downloaded_at	immutable_mode
+GPL10558	https://ftp.ncbi.nlm.nih.gov/geo/platforms/GPL10nnn/GPL10558/annot/GPL10558.annot.gz	data/raw/GPL10558/GPL10558.annot.gz	7290886	c914fdbe1130906ce3b9c97f5a75280591c89c617c168fb687c641f683e76b45	2026-08-05T11:34:27+0800	0444

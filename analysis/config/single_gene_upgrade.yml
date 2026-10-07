@@ -1,0 +1,26 @@
+analysis_label: post_outcome_exploratory_multicohort_upgrade_v1
+discovery: GSE38900_Dallas_Turku
+replication_cohorts:
+  - GSE77087
+  - GSE103842
+specificity_cohort: GSE155925
+families:
+  single_gene_n: 86
+  alpha: 0.05
+meta:
+  method: REML_HKSJ
+  multiplicity: BH_across_86
+severity:
+  codes:
+    healthy: 0
+    outpatient: 1
+    hospitalized: 2
+modules:
+  phase_gate: requires_phase1_user_review
+cell_sensitivity:
+  phase_gate: requires_phase1_user_review
+  minimum_marker_coverage: 0.70
+  maximum_boundary_fraction: 0.20
+docking:
+  run_by_default: false
+

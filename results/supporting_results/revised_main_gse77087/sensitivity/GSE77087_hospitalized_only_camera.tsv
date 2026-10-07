@@ -1,0 +1,2 @@
+cohort	contrast	status	interpretability_reason	n_frozen	n_detectable	coverage	n_genes	inter_gene_correlation	direction	p_value	signed_z
+GSE77087_hospitalized_only	RSV_minus_healthy	interpretable	passed_n_detectable_and_coverage_gate	520	460	0.884615384615385	460	0.0153223021091987	Up	0.248535181325754	1.15391460373703

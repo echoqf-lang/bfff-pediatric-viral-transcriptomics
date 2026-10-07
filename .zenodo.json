@@ -1,0 +1,37 @@
+{
+  "title": "Reproducibility package for cross-context transcriptomic mapping of pediatric viral respiratory infection within a Bufei Fanggan Formula-derived candidate space",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "mit",
+  "version": "1.0.0",
+  "language": "eng",
+  "creators": [
+    {
+      "name": "Qiu, Fan",
+      "affiliation": "School of Traditional Chinese Medicine, Jiangsu Medical College, Yancheng 224005, Jiangsu, China"
+    },
+    {
+      "name": "Yin, Yuyue",
+      "affiliation": "Yancheng Hospital of Traditional Chinese Medicine, Yancheng 224005, Jiangsu, China"
+    },
+    {
+      "name": "Yang, Xuehui",
+      "affiliation": "Yancheng Hospital of Traditional Chinese Medicine, Yancheng 224005, Jiangsu, China"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Qiu, Fan",
+      "affiliation": "School of Traditional Chinese Medicine, Jiangsu Medical College, Yancheng 224005, Jiangsu, China",
+      "type": "DataManager"
+    }
+  ],
+  "keywords": [
+    "respiratory syncytial virus",
+    "pediatric transcriptomics",
+    "cross-context integration",
+    "reproducible research",
+    "Bufei Fanggan Formula"
+  ],
+  "description": "Analysis code, frozen configuration, provenance records, checksums, and compact derived results supporting a multi-cohort secondary analysis of public pediatric blood and airway transcriptomes. No analyzed cohort included exposure to Bufei Fanggan Formula."
+}

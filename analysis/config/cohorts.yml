@@ -1,0 +1,106 @@
+schema_version: 1
+frozen_on: "2026-08-05"
+case_direction: "RSV_minus_healthy"
+raw_root: "data/raw"
+metadata_output: "data/metadata/all_samples_raw.tsv"
+checksum_output: "logs/checksums/geo_sha256.tsv"
+policies:
+  existing_geo_data_allowed: false
+  overwrite_final_files: false
+  outcome_driven_selection_allowed: false
+  technical_replicate_exclusion_stage: "Task 4"
+  default_network_mode: "reuse_only"
+  automatic_download_allowed_roles: ["official_quick_metadata", "series_matrix", "non_normalized_expression", "raw_counts", "official_supplement_filelist"]
+  automatic_download_forbidden_types: ["RAW.tar", "CEL", "CEL.gz", "FASTQ", "SRA"]
+  missing_analysis_matrix_action: "stop_and_report; never substitute source files without new explicit user authorization"
+  existing_source_files_action: "retain_read_only; list cleanup candidates; do not delete"
+cohorts:
+  - accession: "GSE105450"
+    analysis_role: "confirmatory"
+    expected_platforms: ["GPL10558"]
+    expected_sample_count: 127
+    allowed_primary_timepoint: "acute primary timepoint; freeze in Task 4"
+    outcome_previously_observed: false
+    overlap_group: "NCH_RSV_longitudinal_possible_overlap"
+    notes: "May contain five healthy technical replicates; no sample exclusion is performed in Task 3."
+    downloads:
+      - {filename: "GSE105450_quick.soft.txt", role: "official_quick_metadata", url: "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE105450&targ=self&form=text&view=quick"}
+      - {filename: "GSE105450_series_matrix.txt.gz", role: "series_matrix", url: "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE105nnn/GSE105450/matrix/GSE105450_series_matrix.txt.gz"}
+      - {filename: "GSE105450_RAW.tar", role: "raw_archive", url: "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE105nnn/GSE105450/suppl/GSE105450_RAW.tar"}
+      - {filename: "GSE105450_non-normalized.txt.gz", role: "non_normalized_expression", url: "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE105nnn/GSE105450/suppl/GSE105450_non-normalized.txt.gz"}
+      - {filename: "filelist.txt", role: "official_supplement_filelist", url: "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE105nnn/GSE105450/suppl/filelist.txt"}
+
+  - accession: "GSE103842"
+    analysis_role: "confirmatory"
+    expected_platforms: ["GPL10558"]
+    expected_sample_count: 74
+    allowed_primary_timepoint: "within 24 hours of admission; freeze in Task 4"
+    outcome_previously_observed: false
+    overlap_group: null
+    notes: "Task 3 freezes all official samples without case/control inclusion decisions."
+    downloads:
+      - {filename: "GSE103842_quick.soft.txt", role: "official_quick_metadata", url: "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE103842&targ=self&form=text&view=quick"}
+      - {filename: "GSE103842_series_matrix.txt.gz", role: "series_matrix", url: "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE103nnn/GSE103842/matrix/GSE103842_series_matrix.txt.gz"}
+      - {filename: "GSE103842_RAW.tar", role: "raw_archive", url: "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE103nnn/GSE103842/suppl/GSE103842_RAW.tar"}
+      - {filename: "GSE103842_non-normalized_data.txt.gz", role: "non_normalized_expression", url: "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE103nnn/GSE103842/suppl/GSE103842_non-normalized_data.txt.gz"}
+      - {filename: "filelist.txt", role: "official_supplement_filelist", url: "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE103nnn/GSE103842/suppl/filelist.txt"}
+
+  - accession: "GSE188427"
+    analysis_role: "substitution_sensitivity"
+    replaces: "GSE105450"
+    expected_platforms: ["GPL25336"]
+    expected_sample_count: 353
+    allowed_primary_timepoint: "Day 1 only; freeze in Task 4"
+    outcome_previously_observed: false
+    overlap_group: "NCH_RSV_longitudinal_possible_overlap"
+    notes: "Possible participant overlap with GSE105450; never treat both as independent confirmatory cohorts."
+    downloads:
+      - {filename: "GSE188427_quick.soft.txt", role: "official_quick_metadata", url: "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE188427&targ=self&form=text&view=quick"}
+      - {filename: "GSE188427_series_matrix.txt.gz", role: "series_matrix", url: "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE188nnn/GSE188427/matrix/GSE188427_series_matrix.txt.gz"}
+      - {filename: "GSE188427_RAW.tar", role: "raw_archive", url: "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE188nnn/GSE188427/suppl/GSE188427_RAW.tar"}
+      - {filename: "filelist.txt", role: "official_supplement_filelist", url: "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE188nnn/GSE188427/suppl/filelist.txt"}
+
+  - accession: "GSE38900"
+    analysis_role: "exploratory_previously_observed"
+    expected_platforms: ["GPL6884", "GPL10558"]
+    expected_sample_count: 241
+    allowed_primary_timepoint: "acute samples only; freeze in Task 4"
+    outcome_previously_observed: true
+    overlap_group: "NCH_RSV_longitudinal_possible_overlap"
+    notes: "Existing project analyses make this discovery/exploratory only."
+    downloads:
+      - {filename: "GSE38900_quick.soft.txt", role: "official_quick_metadata", url: "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE38900&targ=self&form=text&view=quick"}
+      - {filename: "GSE38900-GPL10558_series_matrix.txt.gz", role: "series_matrix", url: "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE38nnn/GSE38900/matrix/GSE38900-GPL10558_series_matrix.txt.gz"}
+      - {filename: "GSE38900-GPL6884_series_matrix.txt.gz", role: "series_matrix", url: "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE38nnn/GSE38900/matrix/GSE38900-GPL6884_series_matrix.txt.gz"}
+      - {filename: "GSE38900_RAW.tar", role: "raw_archive", url: "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE38nnn/GSE38900/suppl/GSE38900_RAW.tar"}
+      - {filename: "GSE38900_non-normalized.txt.gz", role: "non_normalized_expression", url: "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE38nnn/GSE38900/suppl/GSE38900_non-normalized.txt.gz"}
+      - {filename: "GSE38900_non-normalized_GSM1226237-GSM1226272.txt.gz", role: "non_normalized_expression", url: "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE38nnn/GSE38900/suppl/GSE38900_non-normalized_GSM1226237-GSM1226272.txt.gz"}
+      - {filename: "filelist.txt", role: "official_supplement_filelist", url: "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE38nnn/GSE38900/suppl/filelist.txt"}
+
+  - accession: "GSE155925"
+    analysis_role: "exploratory"
+    expected_platforms: ["GPL16791"]
+    expected_sample_count: 64
+    allowed_primary_timepoint: "freeze in Task 4"
+    outcome_previously_observed: false
+    overlap_group: null
+    notes: "Virus-negative hospitalized children are not healthy controls; severity/cross-virus exploration only."
+    downloads:
+      - {filename: "GSE155925_quick.soft.txt", role: "official_quick_metadata", url: "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE155925&targ=self&form=text&view=quick"}
+      - {filename: "GSE155925_series_matrix.txt.gz", role: "series_matrix", url: "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE155nnn/GSE155925/matrix/GSE155925_series_matrix.txt.gz"}
+      - {filename: "GSE155925_Raw_counts_matrix.txt.gz", role: "raw_counts", url: "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE155nnn/GSE155925/suppl/GSE155925_Raw_counts_matrix.txt.gz"}
+
+  - accession: "GSE103119"
+    analysis_role: "exploratory"
+    expected_platforms: ["GPL10558"]
+    expected_sample_count: 172
+    allowed_primary_timepoint: "freeze in Task 4 only if RSV single infection is unambiguous"
+    outcome_previously_observed: false
+    overlap_group: null
+    notes: "Explore only if sample-level pathogen metadata unambiguously identify RSV single infection."
+    downloads:
+      - {filename: "GSE103119_quick.soft.txt", role: "official_quick_metadata", url: "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE103119&targ=self&form=text&view=quick"}
+      - {filename: "GSE103119_series_matrix.txt.gz", role: "series_matrix", url: "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE103nnn/GSE103119/matrix/GSE103119_series_matrix.txt.gz"}
+      - {filename: "GSE103119_RAW.tar", role: "raw_archive", url: "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE103nnn/GSE103119/suppl/GSE103119_RAW.tar"}
+      - {filename: "GSE103119_non-normalized.txt.gz", role: "non_normalized_expression", url: "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE103nnn/GSE103119/suppl/GSE103119_non-normalized.txt.gz"}
+      - {filename: "filelist.txt", role: "official_supplement_filelist", url: "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE103nnn/GSE103119/suppl/filelist.txt"}

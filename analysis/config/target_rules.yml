@@ -1,0 +1,62 @@
+schema_version: 1
+frozen_on: "2026-08-04"
+seed: 20260804
+species:
+  scientific_name: Homo sapiens
+  taxon_id: 9606
+annotation:
+  package: org.Hs.eg.db
+  package_version: 3.23.1
+  ensembl_source_date: "2025-Sep03"
+  uniprot_source_date: "Fri Mar 20 10:22:53 2026"
+  mapping_mode: offline_only
+inputs:
+  tcms_target_file:
+    path: "1.TCMSP_data/ob大于等于30_dl大于等于0.18_filtered_targets_with_uniprot.csv"
+    sha256: ef80d7b6f18444ad6ea643da90abe5fa0057eae0f8af9126d50250c04b78193e
+  batman_target_file:
+    path: "4.BATMAN_data/BATMAN_All_data.csv"
+    sha256: 4950e91dd067814ef42241bdc1186bc2c4e9e775b0aa0c80ef89aba323cd83cf
+  herbs_file:
+    path: herbs.txt
+    sha256: d1f6eca8f350bacabb4615a0db8f8b3e4efd7f0ef12d98aa5f6c40885cbe5405
+compound_identifiers:
+  BATMAN:
+    id_type: PubChem_CID
+    id_column: CID
+    key: [compound_id, compound_name_standardized]
+  TCMSP:
+    id_type: TCMSP_MOL_ID
+    id_column: MOL_ID
+    key: [compound_id, compound_name_standardized]
+  online_cid_inference: forbidden
+evidence_rules:
+  primary:
+    TCMSP: "human UniProt mapped offline to unique Entrez ID plus official org.Hs.eg.db SYMBOL; Ensembl mappings retained only as optional aliases and not counted"
+    BATMAN: "Score exactly equals known target in HERB"
+  sensitivity_addition:
+    BATMAN: "numeric Score >= 0.90"
+  full_evidence_only:
+    BATMAN: "numeric Score 0.84-0.89 and all other non-primary labels"
+  batman_known_herb_match: exact_case_sensitive
+gene_identity:
+  primary_key: entrez_id
+  display: org.Hs.eg.db_official_symbol
+  ensembl_role: alias_only_not_counted
+  downstream_probe_key: entrez_id
+  preserve_all_source_rows: true
+herbs:
+  - {cn: "黄芪", pinyin: Huangqi, en: Astragalus root}
+  - {cn: "防风", pinyin: Fangfeng, en: Saposhnikovia root}
+  - {cn: "白术", pinyin: Baizhu, en: Atractylodes macrocephala rhizome}
+  - {cn: "党参", pinyin: Dangshen, en: Codonopsis root}
+  - {cn: "白扁豆", pinyin: Baibiandou, en: Hyacinth bean}
+  - {cn: "山药", pinyin: Shanyao, en: Chinese yam}
+  - {cn: "薏苡仁", pinyin: Yiyiren, en: Coix seed}
+  - {cn: "牡蛎", pinyin: Muli, en: Oyster shell}
+  - {cn: "苍术", pinyin: Cangzhu, en: Atractylodes lancea rhizome}
+  - {cn: "鸡内金", pinyin: Jineijin, en: Chicken gizzard membrane}
+  - {cn: "浮小麦", pinyin: Fuxiaomai, en: Floating wheat}
+  - {cn: "山楂", pinyin: Shanzha, en: Hawthorn fruit}
+  - {cn: "大黄", pinyin: Dahuang, en: Rhubarb}
+  - {cn: "炙甘草", pinyin: Zhigancao, en: Honey-fried licorice}
